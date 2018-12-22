@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2" preserve-order="true">
+	<test name="Testone">
+
+	<groups>
+			<run>
+				<include name="SmokeTest"></include>
+				<include name="Regression"></include> 
+				<!-- <exclude name="SmokeTest"></exclude> -->
+			</run>
+		</groups> 
+
+		<classes>
+			<class name="SoniClass.AutomationTutorial1.TestNGClass1"/>
+			<class name="SoniClass.AutomationTutorial1.TestNGClass2" />
+
+
+			<!-- <class name="SoniClass.AutomationTutorial1.TestNGClass3">
+				<methods>
+					<parameter name="Browser" value="Chrome"></parameter>
+					<include name="Selenium123"></include>
+				</methods>
+			</class> -->
+		</classes>
+	</test>
+</suite> 
+
+
+
+
+
+ 
